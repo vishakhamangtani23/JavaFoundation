@@ -1,3 +1,4 @@
+package JAVAExamples;
 public class Box {
     private Object x;
     public void setX(Object x) {
