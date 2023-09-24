@@ -72,4 +72,32 @@ public class SetClasses {
         System.out.println(uniqueWords);
         System.out.println(repeatedWords);
     }
+    public void bulkOperation()
+    {
+        Set<Integer> s1 = new HashSet<>();
+        Set<Integer> s2 = new HashSet<>();
+        s1.add(1);
+        s1.add(2);
+        s1.add(3);
+        s1.add(4);
+        s2.add(11);
+        s2.add(1);
+        s2.add(22);
+        s2.add(33);
+
+        System.out.println("s1 = "+s1);
+        System.out.println("s2 = "+s2);
+        s1.retainAll(s2);
+        System.out.println("s1 = "+s1);
+        System.out.println("s2 = "+s2);
+
+        System.out.println("s1 = "+s1);
+        System.out.println("s2 = "+s2);
+        s1.addAll(s2);
+        System.out.println("s1 = "+s1);
+        System.out.println("s2 = "+s2);
+
+        System.out.println(s1.containsAll(s2));
+    }
+    
 }
