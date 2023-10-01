@@ -69,4 +69,19 @@ public class ListClasses {
             System.out.println(listIteratorBack.previous());
         }
     }
+    public void listAddORSet()
+    {
+        List<Integer> integerList = new ArrayList<>();
+
+        integerList.add(1);
+        integerList.add(2);
+        integerList.add(3);
+        System.out.println(integerList);
+        integerList.add(3,6);
+//        integerList.add(5,60);
+        System.out.println(integerList);
+        integerList.set(0,10);
+        System.out.println(integerList);
+
+    }
 }

@@ -5,6 +5,7 @@ public class ListMain {
         ListClasses listClasses = new ListClasses();
         listClasses.list_demo();
         listClasses.listIteratorDemo();
+        listClasses.listAddORSet();
     }
 
 }
