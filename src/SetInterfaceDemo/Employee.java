@@ -2,7 +2,7 @@ package SetInterfaceDemo;
 
 import java.util.Objects;
 
-public class Employee {
+public class Employee implements Comparable<Employee>{
     int employeeCode;
     String fName;
     String lName;
@@ -59,5 +59,10 @@ public class Employee {
                 ", fName='" + fName + '\'' +
                 ", lName='" + lName + '\'' +
                 '}'+'\n';
+    }
+
+    @Override
+    public int compareTo(Employee o) {
+        return Integer.compare(this.employeeCode,o.employeeCode) ;
     }
 }
