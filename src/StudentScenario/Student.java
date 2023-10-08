@@ -1,8 +1,8 @@
-package CollectionFrameworkExamples.StudentScenario;
+package StudentScenario;
 
 import java.util.Objects;
 
-public class Student {
+public class Student  {
     int roll_no;
     String fName;
 

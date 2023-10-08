@@ -1,4 +1,4 @@
-package CollectionFrameworkExamples.StudentScenario;
+package StudentScenario;
 
 import java.util.*;
 
