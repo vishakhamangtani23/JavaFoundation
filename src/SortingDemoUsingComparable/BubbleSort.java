@@ -48,7 +48,7 @@ public class BubbleSort
         int n = 10;
         int [] arr =  {12,13,66,33,11,77,60,34,21,22};
         String [] strings ={"Vishs","Vish","Khush","Ok"};
-        String [] names ={"Akshi","Muskan","kinjal","Chandni","Chandni"};
+        String [] names ={"Anjala","Sahil","karan","Choti","ok",};
 
         bubblesort(arr,n);
         bubblesortOfWords(strings, strings.length);

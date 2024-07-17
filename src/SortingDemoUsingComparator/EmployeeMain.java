@@ -11,14 +11,15 @@ public class EmployeeMain {
 
     public static void main(String[] args) {
         Employee e1 = new Employee(3, "Vishakha");
-        Employee e3 = new Employee(1, "Harshu");
-        Employee e2 = new Employee(2, "Harsha");
+        Employee e3 = new Employee(1, "ANJALA");
+        Employee e2 = new Employee(2, "anchal");
 
         List<Employee> employeeList = new ArrayList<Employee>();
 
         employeeList.add(e1);
         employeeList.add(e2);
         employeeList.add(e3);
+
 //Proper implementation by Making a Class And giving uska object
         Collections.sort(employeeList, new SortByName());
         Collections.sort(employeeList, new SortById());

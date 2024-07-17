@@ -4,8 +4,9 @@ public class Box {
     public void setX(Object x) {
         this.x = x;
     }
-    public void getX() {
+    public Object getX() {
         System.out.println(x);
+        return x;
     }
     public Object getX2()
     {

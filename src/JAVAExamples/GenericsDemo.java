@@ -1,6 +1,7 @@
 package JAVAExamples;
 
 public class GenericsDemo<T> {
+    private T prop;
 
 
     //    T stands for Type --Always use this convention
@@ -12,6 +13,6 @@ public class GenericsDemo<T> {
         this.prop = prop;
     }
 
-    private T prop;
+
 
 }

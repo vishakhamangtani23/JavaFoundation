@@ -5,6 +5,7 @@ import java.util.Objects;
 public class Student implements Comparable<Student> {
     int roll_no;
     String fName;
+    int marks;
 
     @Override
     public String toString() {
@@ -15,7 +16,7 @@ public class Student implements Comparable<Student> {
                 '}';
     }
 
-    int marks;
+
 
     public int getRoll_no() {
         return roll_no;
@@ -64,7 +65,7 @@ public class Student implements Comparable<Student> {
 
     @Override
     public int compareTo(Student o) {
-        return this.roll_no == o.roll_no ? 0: this.roll_no>o.roll_no ? 1 :-1;
+        return Integer.compare(this.roll_no, o.roll_no);
     }
 
 }

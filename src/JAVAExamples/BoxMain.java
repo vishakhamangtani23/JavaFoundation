@@ -10,14 +10,14 @@ public class BoxMain {
 //        bx.setX("pgg");
 //        bx.getX();
         b1.setX("Hii Vish");
-        b2.setX(99);
-        b4.setX(b3);
-        b3.setX(1.5);
-        b1.getX();
-        b2.getX();
-        b3.getX();
-        b4.getX();
-//        Integer value = (Integer) b4.getX2();
-//        System.out.println(value*100);
+//        b2.setX(99);
+//        b4.setX(b3);
+//        b3.setX(1.5);
+//        b1.getX();
+//        b2.getX();
+//        b3.getX();
+//        b4.getX();
+//        Integer value = Integer.parseInt((String) b1.getX());
+//        System.out.println(value);
     }
 }

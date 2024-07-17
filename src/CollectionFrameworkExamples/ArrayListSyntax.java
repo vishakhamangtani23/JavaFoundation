@@ -16,6 +16,7 @@ public class ArrayListSyntax {
         stringList.add("Khushi");
         stringList.add("Mummy");
 
+
         String value = stringList.get(2);
         System.out.println("Using Get");
         for(int i =0;i<stringList.size();i++)
