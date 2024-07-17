@@ -1,3 +1,5 @@
+package JAVAExamples;
+
 public class GenericsDemo<T> {
 
 

@@ -20,9 +20,11 @@ public class TryingIterator {
         while (integerIterator.hasNext())
         {
             System.out.println(integerIterator.next());
+            System.out.println("Above printed outside");
             if (integerIterator.next() == 1)
             {
                 System.out.println(integerIterator.next());
+                System.out.println("Above printed inside");
             }
         }
     }

@@ -110,7 +110,7 @@ public class ArrayListClass {
         integerCollection.add(5);
 
         Object [] objIntArr = integerCollection.toArray();
-        Integer [] intArr = integerCollection.toArray(new Integer[5]);
+        Integer [] intArr = integerCollection.toArray(new Integer[0]);
         for(int i =0;i<objIntArr.length;i++) {
             System.out.println(objIntArr[i]);
             System.out.println((objIntArr[i]));

@@ -1,7 +1,7 @@
 package CollectionFrameworkExamples;
 
 import java.util.*;
-
+//This program is for leaning HashMap Syntax
 public class HashMapSyntax {
     public static void main(String[] args) {
         syntaxForHashMap();

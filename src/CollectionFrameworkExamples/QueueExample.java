@@ -1,5 +1,6 @@
 package CollectionFrameworkExamples;
 import java.util.*;
+//This program is for leaning Queue Syntax
 public class QueueExample {
     public static void main(String[] args) {
         Queue <Integer> queue = new ArrayDeque<>();

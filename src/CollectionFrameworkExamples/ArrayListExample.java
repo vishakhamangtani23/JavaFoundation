@@ -1,5 +1,5 @@
 package CollectionFrameworkExamples;
-
+/* agenda:-- This Program basically states that Object datatype can take objects of any data type */
 import java.util.ArrayList;
 
 public class ArrayListExample {
@@ -13,6 +13,7 @@ public class ArrayListExample {
 //        ArrayList is obvio
         // Initialize a new ArrayList using the elements from the originalList
         ArrayList<Object> arrayListFromCollection = new ArrayList<>(originalList);
+        arrayListFromCollection.add(12);
 
         // Display the contents of the new ArrayList
         System.out.println("Contents of arrayListFromCollection:");

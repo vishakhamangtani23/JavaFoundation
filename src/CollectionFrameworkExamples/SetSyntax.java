@@ -1,6 +1,7 @@
 package CollectionFrameworkExamples;
 
 import java.util.*;
+//This program is for leaning Set Syntax
 
 public class SetSyntax {
     public static void main(String[] args) {

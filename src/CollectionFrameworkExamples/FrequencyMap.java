@@ -1,6 +1,7 @@
 package CollectionFrameworkExamples;
 import java.util.*;
 import java.lang.Math;
+//This program basically is for gettinga frequency map
 public class FrequencyMap {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

@@ -1,3 +1,5 @@
+package JAVAExamples;
+
 public class GenericsMain {
     public static void main(String[] args) {
         GenericsDemo<Integer> integerGenericsDemo1 = new GenericsDemo<>();
